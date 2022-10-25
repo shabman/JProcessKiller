@@ -6,7 +6,7 @@ The process killer for Unix!
 # How to use
 
 ```java
-	private static final String TARGET_APP = "Spotify";
+private static final String TARGET_APP = "Spotify";
 ```
 `TARGET_APP` should be the name of the application you wish to terminate.
 

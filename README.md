@@ -1,5 +1,5 @@
 # JProcessKiller
-The process killer for Unix!
+- The process killer for Unix!
 ---------------------
 
 # How to use

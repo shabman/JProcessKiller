@@ -1,4 +1,4 @@
-package me.shab.app.killer;
+package me.malik.app.killer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 public final class KillProcess {
 	
 	private static final String PIDS_CMD = "ps aux";
-	private static final String TARGET_APP = "APP NAME HERE";
+	private static final String TARGET_APP = "spotify";
 	private static final String TERMINATE_APP = "kill ";
 	
 	private KillProcess() { }
@@ -98,6 +98,7 @@ public final class KillProcess {
 			if (pid != 0) {
 				System.out.println(pid);
 				this.exec.setCommand(TERMINATE_APP + String.valueOf(pid));
+				this.exec.exec();
 			}
 		}
 	}

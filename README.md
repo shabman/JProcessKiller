@@ -24,4 +24,7 @@ private static final String TARGET_APP = "Spotify";
 
 ---------------------
 
+Created by shabman (avia.shabbyman@gmail.com)
+My Discord is shab#1753
+
 `Copyright (c) 2022 avia.shabbyman@gmail.com`
